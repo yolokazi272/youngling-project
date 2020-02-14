@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.school-title{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center ;
+    font-style: italic;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px 0 30px;
+}
+
+.link{
+    width: 100%;
+    background-color: navy;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    border: 2px solid white;
+}
+
+.nav-bar a{
+    color: lightskyblue;
+    text-decoration: none;
+    /* border: 2px solid white; */
+    width: 200px;
+}
+
+.Welcome-brief{
+    display:flex ;
+    flex-direction: row;
+    margin:30px;
+}
+
+.welcome-text{
+    height: 400px;
+    margin-right: 100px;
+    font-size: 24px;
+    border: 1px solid black
+}
+
+.welcome-image img{
+    height: 400px;
+    width: 700px;
+    margin-right: 700px;
+}
+
+.social-media-icons img{
+    height: 100px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 10s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+.numbertext {
+    color: orangered;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:blue;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-right: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0000;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 1px;
+    margin-left: 700px;
+    margin-bottom: 900px;
+  }
+  h3{
+      margin-left: 700px;
+      font-size: 24;
+  }
+
+  
